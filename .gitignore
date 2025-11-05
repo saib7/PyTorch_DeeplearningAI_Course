@@ -1,0 +1,40 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Dataset files and directories
+# Module 1 - Fundamentals
+1.troch_fundamentals/module1/3.tensor_core_pytorch/data.csv
+1.troch_fundamentals/module1/4.exam/data_with_features.csv
+
+# Module 2 - Image Classifier
+1.troch_fundamentals/module2/1.first_image_classifier/data/
+1.troch_fundamentals/module2/2.exam/EMNIST_data/
+1.troch_fundamentals/module2/2.exam/trained_student_model.pth
+
+# Module 3 - Data Management
+1.troch_fundamentals/module3/1.Data_Management/flower_data/
+
+# Module 4 - CNN
+1.troch_fundamentals/module4/1.CNN_Classifier/cifar_100/
+1.troch_fundamentals/module4/2.model_debugging/dataset/
+1.troch_fundamentals/module4/3.exam/cifar_100/
+
+# General patterns for common datasets
+*.pth
+*.pt
+*.ckpt
+*.csv
+*.mat
+**/MNIST/
+**/EMNIST/
+**/cifar*/
+**/flower_data/
+**/dataset/

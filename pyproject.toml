@@ -1,0 +1,25 @@
+[project]
+name = "pytorch-dlai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "directory-tree>=1.0.0",
+    "dlai-grader>=2.1.0",
+    "fastai>=2.8.5",
+    "ipykernel>=7.1.0",
+    "ipywidgets>=8.1.8",
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.4",
+    "optuna>=4.5.0",
+    "pandas>=2.3.3",
+    "pillow>=12.0.0",
+    "requests>=2.32.5",
+    "scikit-learn>=1.7.2",
+    "scipy>=1.16.3",
+    "torch>=2.9.0",
+    "torchmetrics>=1.8.2",
+    "torchvision>=0.24.0",
+    "tqdm>=4.67.1",
+]
