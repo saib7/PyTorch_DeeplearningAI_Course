@@ -1,45 +1,50 @@
 # PyTorch for Deep Learning Professional Certificate
 
-This repository contains my coursework and lab exercises from the **PyTorch for Deep Learning Professional Certificate** by DeepLearning.AI.
+My coursework from the **PyTorch for Deep Learning Professional Certificate** by DeepLearning.AI.
 
-## Course Structure
+---
 
-### Module 1: PyTorch Fundamentals
-- Simple neural networks
-- Activation functions and non-linear patterns
-- Tensor operations
-- Assignment: Building foundational models
+## Course 1: PyTorch Fundamentals
 
-### Module 2: Image Classification
-- MNIST digit classifier
-- Training and evaluation workflows
-- Assignment: EMNIST character classification
+| Module | Topics |
+|--------|--------|
+| **1. Foundations** | Simple NNs, Activation Functions, Tensor Operations |
+| **2. Image Classification** | MNIST Classifier, Training Workflows |
+| **3. Data Management** | Custom Datasets, Image Data Handling |
+| **4. CNNs** | Convolutional Networks, Model Debugging |
 
-### Module 3: Data Management
-- Data loading and preprocessing
-- Working with custom datasets
-- Image data handling
+---
 
-### Module 4: CNNs and Model Debugging
-- Convolutional neural networks
-- CIFAR-100 nature classifier
-- Model debugging techniques
-- Fashion-MNIST classification
+## Course 2: PyTorch for Deep Learning
+
+| Module | Topics |
+|--------|--------|
+| **1. Hyperparameters** | Tuning, Schedulers, Optuna, Efficiency |
+| **2. Computer Vision** | Image Preprocessing, Torchvision, Transfer Learning |
+| **3. NLP** | Tokenization, Embeddings, Text Classifiers, Fine-tuning |
+| **4. Optimization** | DataLoaders, PyTorch Lightning |
+
+---
+
+## Course 3: Advanced Architectures & Deployment
+
+| Module | Topics |
+|--------|--------|
+| **1. Advanced CNNs** | Similarity Learning, DenseNet |
+| **2. Interpretability** | CNN Visualization, Saliency Maps, Stable Diffusion |
+| **3. Transformers** | Self-Attention, Decoder Models |
+| **4. Deployment** | MLFlow, ONNX, Pruning, Quantization |
+
+---
 
 ## Setup
 
-This project uses [uv](https://github.com/astral-sh/uv) for faster package management.
-
-Install dependencies:
 ```bash
+# Using uv (recommended)
 uv sync
+
+# Or pip
+pip install -r requirements.txt
 ```
 
-Or if you prefer pip:
-```bash
-uv pip install -r requirements.txt
-```
-
-## Structure
-
-Each module contains labs and assignments with helper utilities and test scripts included.
+Each module contains labs, assignments, and helper utilities.
